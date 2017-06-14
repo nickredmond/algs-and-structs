@@ -1,0 +1,53 @@
+body {
+	text-align: center;
+}
+
+.page-header > small {
+	color: #777;
+    font-size: 1.25em;
+}
+
+/*
+	Courtesy of Amar Nityananda at
+		https://blogs.msdn.microsoft.com/amar/2013/11/15/creating-a-simple-tile-button-in-htmlcss-and-as-an-asp-net-mvc-htmlhelper/
+*/
+.tile{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    background-size:200px 200px;
+}
+ 
+.caption{
+    background-color: rgba(50,50,50,0.4);
+    overflow: hidden;
+    color: #fff;
+    font-weight: bold;
+    margin: 150px 0px 0px 0px;
+    height: 200px;
+    width: 200px;
+}
+ 
+.caption:hover {
+    transition: margin .5s;
+    margin: 0px 0px 20px 0px;
+    background-color: rgba(50,50,50,0.4);
+    cursor: pointer;
+}
+ 
+#description{
+    overflow: hidden;
+    margin: 25px 0px 0px 0px;
+}
+/* --- */
+
+.caption-title {
+	font-size: 1.25em;
+}
+.caption:hover > .caption-title {
+	text-decoration: underline;
+}
